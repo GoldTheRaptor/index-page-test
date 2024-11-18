@@ -1,7 +1,17 @@
-.cotainer {
+body{
+    background-color: #382050;
+}
+
+
+.cotainer, .title{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img{
+    width: 20%;
+    border-radius: 50%;
 }
 
 .box {
@@ -16,6 +26,7 @@
 .text {
     text-align: center;
     color: white; 
+    margin-right: 10px;
 }
 
 .link-button {
